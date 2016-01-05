@@ -52,7 +52,7 @@
 	</section>
 					
 				</div>
-				<?php include '_sidebar_left.php'; ?>
+				<?php include '_sidebar_company.php'; ?>
 			</div>
 		</div>
 	</section>
