@@ -15,7 +15,7 @@
 							<a href="allocation-comcept.php"><span>Carpa Aloca&ccedil;&atilde;o</span></a>
 						</li>
 						<li class="menu-item">
-							<a href="wealth-management.php"><span>Carpa Gesta&#771;o de Patrimo&#770;nio</span></a>
+							<a href="wealth-management-concept.php"><span>Carpa Gesta&#771;o de Patrimo&#770;nio</span></a>
 						</li>
 						<li class="menu-item">
 							<a href="index.html"><span>Informes</span></a>

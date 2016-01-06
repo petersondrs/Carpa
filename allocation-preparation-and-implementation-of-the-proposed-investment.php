@@ -18,40 +18,40 @@
 			<div class="vozx_container">
 				<div class="span12">
 				<p>
-				<strong>PRIMEIRA FASE</strong>
+				<h5>PRIMEIRA FASE</h5>
 				</p>
 				<p>
-				PERFIL DE RISCO<br>
+				<strong>PERFIL DE RISCO</strong><br>
 				O perfil do investidor é determinado a partir da avaliação de seus objetivos e de sua tolerância a risco, considerando o horizonte de investimento e necessidade de liquidez.
 				</p>
 				<p>
-				ESTRUTURA ÓTIMA<br>
+				<strong>ESTRUTURA ÓTIMA</strong><br>
 				Para cada investidor é sugerida a estrutura ideal, que leva em conta o valor investido, os benefícios fiscais e as questões sucessórias.
 				</p>
 				<p>
-				MONTAGEM DO PORTFÓLIO<br>
+				<strong>MONTAGEM DO PORTFÓLIO</strong><br>
 				Proposta de portfólio personalizado, prevendo alocação em diferentes estratégias de investimento e aproveitando os benefícios da diversificação.
 				</p>
 				<p>
-				<strong>SEGUNDA FASE</strong>
+				<h5>SEGUNDA FASE</h5>
 				</p>
 				<p>
-				PROCESSO CADASTRAL<br>
+				<strong>PROCESSO CADASTRAL</strong><br>
 				O cadastro master online reduz a burocracia e simplifica a adesão a diversos produtos, sendo necessária apenas a assinatura da documentação.
 				</p>
 				<p>
-				 APLICAÇÕES<br>
+				 <strong>APLICAÇÕES</strong><br>
 				São efetuadas por meios de transferências bancárias, realizadas pelo cliente diretamente para o banco custodiante dos investimentos
 				</p>
 				<p>
-				<strong>TERCEIRA FASE</strong>
+				<h5>TERCEIRA FASE</h5>
 				</p>
 				<p>
-				MONITORAMENTO CONTÍNUO<br>
+				<strong>MONITORAMENTO CONTÍNUO</strong><br>
 				Os portfólios são monitorados e revisados continuamente, garantindo o enquadramento ao perfil dos investidores e a alocação nos melhores produtos disponíveis.
 				</p>
 				<p>
-				EXTRATOS<br>
+				<strong>EXTRATOS</strong><br>
 				O extrato consolidado dos investimentos é atualizado diariamente e disponibilizado online, enquanto os extratos bancários oficias são enviados mensalmente diretamente para o cliente..
 				</p>
 
