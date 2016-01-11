@@ -146,6 +146,13 @@ Author URI: http://www.ab-themes.com
 	12.1. Footer Menu
 13. Responsive
 
+/*-----------------------------------------------------------------*/
+/* Typography
+/*-----------------------------------------------------------------*/
+@font-face {
+font-family: GillSansStd;
+src: url('../tipografia/GillSansStd.otf');
+}
 
 /*-----------------------------------------------------------------*/
 /* 1. CSS RESET
@@ -171,6 +178,7 @@ time, mark, audio, video, a {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 0;
+	font-family: GillSansStd;
 }
 
 article, aside, details, figcaption, figure,
@@ -362,7 +370,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 }
 
 .vozx_section_dd header h3{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	display: inline-block;
 	color: #222222;
@@ -376,7 +384,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 }
 
 .column_title_left{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	display: inline-block;
 	color: #222222;
@@ -462,7 +470,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 }
 
 .vozx_section_dd header p{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	margin-bottom: 30px;
 	padding: 0 100px;
 	font-weight: 300;
@@ -558,7 +566,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	font-size: 13px;
 	line-height: 18px;
 	position: relative;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	margin-right: 2px;
 	border-top-right-radius: 3px;
@@ -578,7 +586,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	font-size: 13px;
 	line-height: 18px;
 	position: relative;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
@@ -710,7 +718,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	font-size: 13px;
 	line-height: 18px;
 	position: relative;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	margin-right: 2px;
 	border-bottom-right-radius: 3px;
@@ -734,7 +742,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	font-size: 13px;
 	line-height: 18px;
 	position: relative;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
@@ -1173,7 +1181,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	font-size: 14px;
 	line-height: 18px;
 	position: relative;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	color: #3b4550;
 	position: relative;
@@ -1241,7 +1249,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 .vozx-tabs.vozx-tabs-timeline .timeline_title{
 	font-size: 14px;
 	color: #3b4550;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
@@ -1543,7 +1551,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 }
 
 .vozx-table th{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	color: #3b4550;
@@ -1673,7 +1681,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 }
 
 .vozx_blockquote p{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 18px;
 	line-height: 28px;
 	color: #3b4550;
@@ -1952,7 +1960,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 }
 
 .vozx_blockquote_wide p{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300!important;
 	font-style: normal;
 	font-size: 36px;
@@ -1964,7 +1972,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 }
 
 .vozx_blockquote_wide p small{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size:18px;
 	line-height: 25px;
@@ -2217,7 +2225,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	font-size: 52px;
 	line-height: 70px;
 	font-weight: 700;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	display: inline-block;
 }
 
@@ -2225,13 +2233,13 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	font-size: 52px;
 	line-height: 50px;
 	font-weight: 700;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 }
 
 .vozx_stats_excerpt p{
 	font-size: 24px;
 	font-weight: 300;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	margin-top: 15px;
 	margin-bottom: 14px;
 }
@@ -2267,7 +2275,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	font-size: 52px;
 	line-height: 62px;
 	font-weight: 700;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	display: inline;
 	letter-spacing: 0.5px;
 }
@@ -2277,7 +2285,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	color: #666;
 	line-height: 62px;
 	font-weight: 700;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 }
 
 .vozx_stats_excerpt_1 .vozx_stats_number.white_text{
@@ -2291,7 +2299,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 .vozx_stats_excerpt_1 p{
 	font-size: 24px;
 	font-weight: 300;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -2405,7 +2413,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	text-align: center;
 	visibility: hidden;
 	font-size: 50px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	z-index: 2;
 }
@@ -2551,7 +2559,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 
 .vozx_team_member .vozx_team_member_name{
 	display: block;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 18px;
@@ -2898,7 +2906,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 
 .vozx_pricing-table-1 .vozx_pricebox_name{
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	display: block;
@@ -2916,18 +2924,18 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 
 .vozx_pricing-table-1 .vozx_pricebox_currency{
 	font-size: 40px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	margin-right: 5px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
 .vozx_pricing-table-1 .vozx_pricebox_price{
 	font-size: 40px;
 	line-height: 60px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	display: inline-block;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
@@ -3049,7 +3057,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 
 .vozx_pricing-table-2 .vozx_pricebox_name{
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	display: block;
@@ -3084,7 +3092,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 
 .vozx_pricing-table-2 .vozx_pricebox_currency{
 	font-size: 40px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	margin-right: 5px;
 	font-weight: 700;
 }
@@ -3092,7 +3100,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 .vozx_pricing-table-2 .vozx_pricebox_price{
 	font-size: 40px;
 	line-height: 60px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	display: inline-block;
 	font-weight: 700;
 }
@@ -3248,7 +3256,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 
 .vozx_pricing-table-3 .vozx_pricebox_name{
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	display: block;
@@ -3266,18 +3274,18 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 
 .vozx_pricing-table-3 .vozx_pricebox_currency{
 	font-size: 40px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	margin-right: 5px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
 .vozx_pricing-table-3 .vozx_pricebox_price{
 	font-size: 40px;
 	line-height: 60px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	display: inline-block;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
@@ -3414,7 +3422,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 
 .vozx_pricing-table-4 .vozx_pricebox_name{
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	display: block;
@@ -3432,18 +3440,18 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 
 .vozx_pricing-table-4 .vozx_pricebox_currency{
 	font-size: 40px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	margin-right: 5px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
 .vozx_pricing-table-4 .vozx_pricebox_price{
 	font-size: 40px;
 	line-height: 60px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	display: inline-block;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
@@ -3569,7 +3577,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 
 .vozx_pricing-table-5 .vozx_pricebox_name{
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	display: block;
@@ -3586,18 +3594,18 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 
 .vozx_pricing-table-5 .vozx_pricebox_currency{
 	font-size: 60px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	margin-right: 5px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
 .vozx_pricing-table-5 .vozx_pricebox_price{
 	font-size: 60px;
 	line-height: 60px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	display: inline-block;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
@@ -3797,7 +3805,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	display: inline-block;
 	line-height: 24px;
 	color: #666666;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size: 15px;
 	text-transform: uppercase;
@@ -3817,7 +3825,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	top: -25px;
 	right: 0;
 	color: #e4664e;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 }
@@ -3843,7 +3851,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	z-index: 100;
 	line-height: 16px;
 	color: #fff;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -3867,7 +3875,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	top: 6px;
 	right: 10px;
 	color: #e4664d;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 }
@@ -3892,7 +3900,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	display: inline-block;
 	line-height: 16px;
 	color: #3b4550;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	letter-spacing: 0.3px;
@@ -3930,7 +3938,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	top: -32px;
 	right: 6px;
 	color: #e4664d;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	z-index: 100;
@@ -4807,7 +4815,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	background: #f5f5f5;
 	border-radius: 0px;
 	border-left: 4px solid #e4664e;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-style: italic;
 	font-size: 17px;
@@ -4976,7 +4984,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 
 .vozx-callout_box_title{
 	font-size: 32px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	margin-bottom: 13px;
 	color: #505558;
@@ -5019,7 +5027,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 }
 
 .vozx-callout_box_style_1 .vozx-callout_box_title{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 36px;
 	line-height: 43px;
 	color: #fff;
@@ -5064,7 +5072,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 }
 
 .vozx-callout_box_style_2 .vozx-callout_box_title{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 28px;
 	color: #3b4550;
 	margin-bottom: 0;
@@ -5101,7 +5109,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 }
 
 .vozx-callout_box_style_3 .vozx-callout_box_title{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 22px;
 	color: #3b4550;
 	float: left;
@@ -5122,7 +5130,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 }
 
 .vozx-callout_box_style_4 .vozx-callout_box_title{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 22px;
 	color: #3b4550;
 	float: left;
@@ -5151,7 +5159,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 }
 
 .vozx-callout_box_style_5 .vozx-callout_box_title{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 28px;
 	float: left;
 	line-height: 32px;
@@ -5197,7 +5205,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 }
 
 .vozx-image-callout-box .vozx-image-callout-box-wrapper .vozx-image-callout-box-title{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 100;
 	font-size: 33px;
 }
@@ -5213,7 +5221,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 
 .vozx-image-callout-box .vozx-image-callout-box-wrapper p{
 	text-align: center;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 100;
 	font-size: 20px;
 	margin-top: 5px;
@@ -5280,7 +5288,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	margin-left: 5px;
 	margin-top: 21px;
 	text-decoration: none;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 }
 
@@ -5383,7 +5391,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 .vozx-button_small{
 	padding: 4px 14px;
 	font-size: 11px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	letter-spacing: 0.9px;
 }
@@ -5391,7 +5399,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 .vozx-button_medium{
 	padding: 9px 20px;
 	font-size: 12px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	letter-spacing: 0.9px;
 }
@@ -5400,7 +5408,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	padding: 13px 22px;
 	font-size: 14px;
 	line-height: 22px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
@@ -5621,7 +5629,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 }
 
 .countdown {
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 100;
 	font-size: 42px;
 	line-height: 100px;
@@ -5644,7 +5652,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 }
 
 .vozx_countdown_inner span{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	font-size: 20px;
 	line-height: 50px;
@@ -5658,7 +5666,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 
 /*-------- 2.36.1. Countdown Flip Style --------*/
 .vozx_countdown.flip_style span{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	font-size: 17px;
 	line-height: 50px;
@@ -5693,7 +5701,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 	color: #f8f8f8;
 	font-weight: 700;
 	display: block;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 42px;
 	line-height: 105px;
 	overflow: hidden;
@@ -5896,7 +5904,7 @@ input[type="text"],input[type="password"],input[type="email"], textarea, select 
 /*-----------------------------------------------------------------*/
 
 body{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 20px;
@@ -5937,7 +5945,7 @@ body.preloader{
 
 #jprePercentage {
 	color:#aaa;
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	text-align:center;
 	font-size: 40px;
 }
@@ -5984,7 +5992,7 @@ ol{
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	color: #222222;
 	margin-bottom: 10px;
@@ -6169,7 +6177,7 @@ pre{
 
 input,select,textarea{
 	border: 1px solid #d9d9d9;
-	font-family: Lato,  sans-serif;
+	font-family: GillSansStd,  sans-serif;
 	color: #939fa6;
 	font-size: 14px;
 	line-height: 26px;
@@ -6208,7 +6216,7 @@ input[type="submit"] {
 	margin-bottom: 20px;
 	line-height: 22px;
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -6320,7 +6328,7 @@ video{
 }
 
 .bigtext{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	font-size: 38px;
 	line-height: 28px;
@@ -7363,7 +7371,7 @@ body.admin-bar #ABdev_main_header.transparent{
 }
 
 .ABdev_main_slider_scroll_info{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	text-transform: uppercase;
 }
 
@@ -7518,7 +7526,7 @@ body.admin-bar #ABdev_main_header.header_layout_centered.fixed{
 	float: left;
 	margin-top: 27px;
 	color: #666;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 14.4px;
@@ -7552,7 +7560,7 @@ body.admin-bar #ABdev_main_header.header_layout_centered.fixed{
 }
 
 .header_layout_1 #shop_links .cart_dropdown_widget h2.widgettitle{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	color: #666666;
 	line-height: 24px;
@@ -7587,7 +7595,7 @@ body.admin-bar #ABdev_main_header.header_layout_centered.fixed{
 /*-------- 4.3. Header Layout 2 --------*/
 .header_layout_2 #top_bar #login_button_area > a:before{
 	content: "/";
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	color: #999999;
 	font-size: 13px;
 	line-height: 16px;
@@ -7604,7 +7612,7 @@ body.admin-bar #ABdev_main_header.header_layout_centered.fixed{
 
 .header_layout_2 #top_bar #shop_links{
 	color: #666;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 14.4px;
@@ -7613,7 +7621,7 @@ body.admin-bar #ABdev_main_header.header_layout_centered.fixed{
 }
 
 .header_layout_2 #top_bar #login_button_area > a{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 14.4px;
@@ -7665,7 +7673,7 @@ body.admin-bar #ABdev_main_header.header_layout_centered.fixed{
 	float: right;
 	margin-top: 27px;
 	color: #666;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 14.4px;
@@ -7712,7 +7720,7 @@ body.admin-bar #ABdev_main_header.header_layout_centered.fixed{
 	margin-top: 24px;
 	margin-left: 8px;
 	color: #666;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 14.4px;
@@ -7721,7 +7729,7 @@ body.admin-bar #ABdev_main_header.header_layout_centered.fixed{
 
 .header_layout_4 .login_button:before{
 	content: "/";
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	color: #999999;
 	font-size: 13px;
 	line-height: 16px;
@@ -7744,7 +7752,7 @@ body.admin-bar #ABdev_main_header.header_layout_centered.fixed{
 }
 
 .header_layout_4 #shop_links .cart_dropdown_widget h2.widgettitle{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	color: #666666;
 	line-height: 24px;
@@ -7808,7 +7816,7 @@ nav > ul > li:hover{
 
 nav > ul > li a{
 	color: #fff;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 14.4px;
@@ -7828,7 +7836,7 @@ nav > ul > li a:hover{
 
 nav > ul > li > a:after{
 	content:"/";
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	color: #999999;
 	font-size: 13px;
 	line-height: 16px;
@@ -8113,7 +8121,7 @@ nav > ul .sf-mega-inner > ul > li:last-child{
 }
 
 nav > ul .sf-mega-inner > ul > li > a{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #3b4550;
@@ -8185,7 +8193,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 }
 
 .menu_header a span{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #3b4550;
@@ -8198,7 +8206,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 #headline_breadcrumbs_bar{
 	background: #f6f6f6;
 	padding: 48px 0;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 }
@@ -8206,7 +8214,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 #title_breadcrumbs_bar{
 	background: #f6f6f6;
 	padding: 12px 0;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 }
@@ -8216,7 +8224,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 	color: #fff;
 	line-height: 46px;
 	margin-bottom: 0;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 }
 
@@ -8562,7 +8570,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 }
 
 .post_info .post_main_date{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 26px;
@@ -8573,7 +8581,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 }
 
 .post_info .post_main_month{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 14px;
@@ -8592,7 +8600,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 	padding: 9px 22px;
 	font-size: 14px;
 	line-height: 22px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	background: #e4664e;
 	border: 1px solid #e4664e;
@@ -8643,7 +8651,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .post_main .post_main_inner_wrapper h2 a{
 	color: #3b4550;
 	font-size: 24px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	line-height: 24px;
 	font-weight: 400;
 }
@@ -8653,7 +8661,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 }
 
 .post_main .post_main_inner_wrapper .post_author{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size:13px;
 	line-height:22px;
 	color:#848994;
@@ -8663,7 +8671,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 }
 
 .post_main .post_main_inner_wrapper .post_author .post_author_inner{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	color: #999;
 	font-size: 12px;
@@ -8679,7 +8687,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 
 .post_main .post_main_inner_wrapper .post_author .post_tags{
 	display: inline-block;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	color: #999;
 	font-size: 12px;
@@ -8762,7 +8770,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .timeline_post h2 a{
 	color: #3b4550;
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	line-height: 24px;
 }
 
@@ -8901,7 +8909,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 	border-radius: 2px;
 	color: #E4664D;
 	text-transform: uppercase;
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:14px;
 	font-weight:700;
 	text-align: center;
@@ -8967,7 +8975,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .grid_post h2 a{
 	color: #3b4550;
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	line-height: 24px;
 }
 
@@ -9039,7 +9047,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 	border-radius: 3px;
 	color: #E4664D;
 	text-transform: uppercase;
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:14px;
 	font-weight:700;
 	text-align: center;
@@ -9160,7 +9168,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_right .post_info .post_main_date,
 .blog_category_index_left .post_info .post_main_date,
 .blog_category_index_none .post_info .post_main_date{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	font-size: 25px;
 	line-height: 24px;
@@ -9173,7 +9181,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_right .post_info .post_main_month,
 .blog_category_index_left .post_info .post_main_month,
 .blog_category_index_none .post_info .post_main_month{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 24px;
@@ -9266,7 +9274,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_none .post_main .post_main_inner_wrapper h2 a{
 	color: #3b4550;
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	line-height: 24px;
 }
 
@@ -9279,7 +9287,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_right .post_main .post_main_inner_wrapper .post_author,
 .blog_category_index_left .post_main .post_main_inner_wrapper .post_author,
 .blog_category_index_none .post_main .post_main_inner_wrapper .post_author{
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:13px;
 	line-height:22px;
 	color:#848994;
@@ -9299,7 +9307,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_right .post_main .post_main_inner_wrapper .post_category a,
 .blog_category_index_left .post_main .post_main_inner_wrapper .post_category a,
 .blog_category_index_none .post_main .post_main_inner_wrapper .post_category a{
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:13px;
 	line-height:22px;
 	color:#848994;
@@ -9309,7 +9317,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_right .post_main .post_main_inner_wrapper .post_category a:hover,
 .blog_category_index_left .post_main .post_main_inner_wrapper .post_category a:hover,
 .blog_category_index_none .post_main .post_main_inner_wrapper .post_category a:hover{
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:13px;
 	line-height:22px;
 	color:#E4664D;
@@ -9338,7 +9346,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 	border-radius: 2px;
 	color: #E4664D;
 	text-transform: uppercase;
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:14px;
 	font-weight:700;
 	text-align: center;
@@ -9428,7 +9436,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_right2 .post_info .post_main_date,
 .blog_category_index_left2 .post_info .post_main_date,
 .blog_category_index_none2 .post_info .post_main_date{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	font-size: 25px;
 	line-height: 24px;
@@ -9441,7 +9449,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_right2 .post_info .post_main_month,
 .blog_category_index_left2 .post_info .post_main_month,
 .blog_category_index_none2 .post_info .post_main_month{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 24px;
@@ -9541,7 +9549,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_none2 .post_main .post_main_inner_wrapper h2 a{
 	color: #3b4550;
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	line-height: 24px;
 }
 
@@ -9554,7 +9562,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_right2 .post_main .post_main_inner_wrapper .post_author,
 .blog_category_index_left2 .post_main .post_main_inner_wrapper .post_author,
 .blog_category_index_none2 .post_main .post_main_inner_wrapper .post_author{
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:13px;
 	line-height:22px;
 	color:#848994;
@@ -9574,7 +9582,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_right2 .post_main .post_main_inner_wrapper .post_category a,
 .blog_category_index_left2 .post_main .post_main_inner_wrapper .post_category a,
 .blog_category_index_none2 .post_main .post_main_inner_wrapper .post_category a{
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:13px;
 	line-height:22px;
 	color:#848994;
@@ -9584,7 +9592,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_right2 .post_main .post_main_inner_wrapper .post_category a:hover,
 .blog_category_index_left2 .post_main .post_main_inner_wrapper .post_category a:hover,
 .blog_category_index_none2 .post_main .post_main_inner_wrapper .post_category a:hover{
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:13px;
 	line-height:22px;
 	color:#E4664D;
@@ -9613,7 +9621,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 	border-radius: 2px;
 	color: #E4664D;
 	text-transform: uppercase;
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:14px;
 	font-weight:700;
 	text-align: center;
@@ -9679,7 +9687,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_right3 .post_info .post_main_date,
 .blog_category_index_left3 .post_info .post_main_date,
 .blog_category_index_none3 .post_info .post_main_date{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 26px;
@@ -9692,7 +9700,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_right3 .post_info .post_main_month,
 .blog_category_index_left3 .post_info .post_main_month,
 .blog_category_index_none3 .post_info .post_main_month{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 14px;
@@ -9770,7 +9778,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_none3 .post_main .post_main_inner_wrapper h2 a{
 	color: #3b4550;
 	font-size: 24px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	line-height: 29px;
 	font-weight: 400;
 }
@@ -9784,7 +9792,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index.blog_category_index_right3 .post_main .post_main_inner_wrapper .post_author,
 .blog_category_index.blog_category_index_left3 .post_main .post_main_inner_wrapper .post_author,
 .blog_category_index.blog_category_index_none3 .post_main .post_main_inner_wrapper .post_author{
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:13px;
 	line-height:22px;
 	color:#848994;
@@ -9797,7 +9805,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_right3 .post_main .post_main_inner_wrapper .post_author .post_author_inner,
 .blog_category_index_left3 .post_main .post_main_inner_wrapper .post_author .post_author_inner,
 .blog_category_index_none3 .post_main .post_main_inner_wrapper .post_author .post_author_inner{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	color: #999;
 	font-size: 12px;
@@ -9822,7 +9830,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_left3 .post_main .post_main_inner_wrapper .post_author .post_tags a,
 .blog_category_index_none3 .post_main .post_main_inner_wrapper .post_author .post_tags a{
 	display: inline-block;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	color: #999;
 	font-size: 12px;
@@ -10035,7 +10043,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_right_mini .post_main .post_main_inner_wrapper .post_category a,
 .blog_category_index_left_mini .post_main .post_main_inner_wrapper .post_category a,
 .blog_category_index_none_mini .post_main .post_main_inner_wrapper .post_category a{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 13px;
 	line-height: 22px;
 	font-weight: 300;
@@ -10058,7 +10066,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 	border-radius: 2px;
 	color: #E4664D;
 	text-transform: uppercase;
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:14px;
 	font-weight:700;
 	text-align: center;
@@ -10187,7 +10195,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 
 .mini2_post .post_date_inner{
 	margin-right: 5px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 13px;
 	line-height: 22px;
 	font-weight: 300;
@@ -10195,7 +10203,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 }
 
 .mini2_post .post_author a{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 13px;
 	line-height: 22px;
 	font-weight: 300;
@@ -10215,7 +10223,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 
 .mini2_post .post_category{
 	margin: 0 5px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 13px;
 	line-height: 22px;
 	font-weight: 300;
@@ -10223,7 +10231,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 }
 
 .mini2_post .post_category a{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 13px;
 	line-height: 22px;
 	color: #848994;
@@ -10235,7 +10243,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 }
 
 .mini2_post .post_meta_comments{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 13px;
 	line-height: 22px;
 	font-weight: 300;
@@ -10328,7 +10336,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .blog_category_index_dual .post_main .post_main_inner_wrapper h2 a{
 	color: #3b4550;
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	line-height: 24px;
 }
 
@@ -10358,7 +10366,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 	border-radius: 2px;
 	color: #E4664D;
 	text-transform: uppercase;
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:14px;
 	font-weight:700;
 	text-align: center;
@@ -10376,7 +10384,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 }
 
 .blog_category_index_dual .post_main .post_category a{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 13px;
 	line-height: 22px;
 	font-weight: 300;
@@ -10476,7 +10484,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .post_content .post_main .post_author .post_author_inner,
 .post_content .post_main .post_author .post_author_inner a{
 	display: inline-block;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	font-size: 12px;
 	line-height: 14px;
@@ -10485,7 +10493,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .post_content .post_main .post_author .post_tags,
 .post_content .post_main .post_author .post_tags a{
 	display: inline;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	color: #999;
 	font-size: 12px;
@@ -10638,7 +10646,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 
 .post_meta_share span{
 	margin-right: 10px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	color: #3b4550;
@@ -10699,7 +10707,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 }
 
 .post_about_author h5{
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:18px;
 	font-weight:400;
 	line-height:29px;
@@ -10999,7 +11007,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 }
 
 .comment .comment-author{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	color:  #666666;
 	font-size: 16px;
 	font-weight: 700;
@@ -11009,7 +11017,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .comment time{
 	margin-top: 5px;
 	display: block;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	color:  #999999;
 	font-size: 12px;
 	font-style: italic;
@@ -11020,7 +11028,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 .comment .edit-link,
 .comment .reply a,
 .comment .edit-link a{
-	font-family:"Lato";
+	font-family:"GillSansStd";
 	font-size:12px;
 	line-height:16px;
 	color:#e4664d;
@@ -11052,7 +11060,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 
 #respond .comment-reply-title{
 	text-transform: uppercase;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	font-size: 18px;
 	color: #3b4550;
@@ -11095,7 +11103,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 
 #respond .comment-form-comment{
 	margin-bottom: 0;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 13px;
 	color: #848994;
 }
@@ -11109,7 +11117,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 	border: 1px solid transparent;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 14px;
 	padding: 14px 18px;
 	margin-bottom: 23px;
@@ -11131,7 +11139,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 	background: #fff;
 	border: 1px solid #dddddd;
 	border-radius: 0px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 14px;
 	color: #858585;
 	padding: 12px 15px 11px;
@@ -11143,7 +11151,7 @@ nav > ul .sf-mega-inner .description_menu_item a:hover{
 	background: #fff;
 	border: 1px solid #dddddd;
 	border-radius: 0px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 14px;
 	color: #858585;
 	margin-top: 0!important;
@@ -11184,7 +11192,7 @@ body.loggedin #respond .comment-form textarea[id="comment"]{
 	background: #fff;
 	border: 1px solid #dddddd;
 	border-radius: 0px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 14px;
 	color: #858585;
 	margin-top: 0!important;
@@ -11376,7 +11384,7 @@ body.author .post_main .post_main_inner_wrapper h5{
 	margin-bottom: 20px;
 	line-height: 22px;
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -11509,7 +11517,7 @@ h3.sidebar-widget-heading,
 .sidebar-widget-heading h3,
 #comments-title,
 #reply-title{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	color: #666666;
 	line-height: 24px;
@@ -11621,7 +11629,7 @@ h3.footer-widget-heading{
 }
 
 .search_resuls_number{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 21px;
 	font-weight: 300;
 	position: absolute;
@@ -11758,7 +11766,7 @@ h3.footer-widget-heading{
 }
 
 .widget_rss .rsswidget{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	color: #505558;
 	font-size: 18px;
 	padding-left: 0;
@@ -11777,7 +11785,7 @@ h3.footer-widget-heading{
 }
 
 .widget_rss cite {
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	color: #222;
 	margin-top: 10px;
@@ -11787,14 +11795,14 @@ h3.footer-widget-heading{
 	margin-bottom: 10px;
 	border-bottom: 1px solid #eee;
 	padding-bottom: 10px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	color: #222222;
 	padding-left: 0;
 }
 
 .widget_recent_comments .recentcomments .url{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	color: #222222;
 	padding-left: 0;
@@ -11938,7 +11946,7 @@ aside.sidebar .flickr_stream img{
 
 .rpwe-title{
 	margin-bottom: 0 !important;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	line-height: 18px;
 	font-weight: 400;
 	display: inline-block;
@@ -11988,7 +11996,7 @@ aside.sidebar .flickr_stream img{
 }
 
 #ABdev_main_footer .rpwe-title{
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:13px!important;
 	line-height:22px!important;
 	color:#9EA3AE;
@@ -11996,7 +12004,7 @@ aside.sidebar .flickr_stream img{
 }
 
 #ABdev_main_footer .rpwe-time{
-	font-family:Lato, sans-serif;
+	font-family:GillSansStd, sans-serif;
 	font-size:12px!important;
 	line-height:22px!important;
 	color:#6b7078;
@@ -12310,7 +12318,7 @@ aside.sidebar .flickr_stream img{
 	font-size: 30px;
 	font-weight: 300;
 	text-transform: uppercase;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 }
 
 .portfolio_item h4 a:hover{
@@ -12340,7 +12348,7 @@ aside.sidebar .flickr_stream img{
 }
 
 .portfolio_item .overlayed .overlay .overlay_title{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 22px;
 	line-height: 26px;
 	color: #fff;
@@ -12382,7 +12390,7 @@ aside.sidebar .flickr_stream img{
 .portfolio_item .overlayed .overlay .portfolio_item_tags{
 	font-style: italic;
 	margin-bottom: 0;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	position: absolute;
 	bottom: 10px;
@@ -12518,7 +12526,7 @@ aside.sidebar .flickr_stream img{
 .single_portfolio .portfolio_item_meta_data{
 	color: #9fa4af;
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 }
 
 .single_portfolio_description{
@@ -12532,7 +12540,7 @@ aside.sidebar .flickr_stream img{
 .single_portfolio_description .portfolio_single_detail .portfolio_item_meta_data{
 	color: #9fa4af;
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 }
 
 .single_portfolio_meta{
@@ -12552,20 +12560,20 @@ aside.sidebar .flickr_stream img{
 }
 
 .portfolio_item_meta h5 a{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
 .portfolio_item_meta .portfolio_item_meta_label{
 	color:#3b4550;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: bold;
 	font-size: 13px;
 }
 
 .portfolio_item_meta .portfolio_item_meta_data{
 	color:#848994;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 13px;
 }
 
@@ -12596,7 +12604,7 @@ aside.sidebar .flickr_stream img{
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 	padding: 8px 37px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -12607,7 +12615,7 @@ aside.sidebar .flickr_stream img{
 	background: #fff;
 	color: #E4664D;
 	padding: 8px 37px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -12617,7 +12625,7 @@ aside.sidebar .flickr_stream img{
 .portfolio_share_social{
 	color: #3b4550;
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -12700,7 +12708,7 @@ aside.sidebar .flickr_stream img{
 
 .portfolio_filter li a{
 	color: #999999;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 13px;
 	line-height: 17px;
 	font-weight: 400;
@@ -12815,7 +12823,7 @@ aside.sidebar .flickr_stream img{
 	background: #fff;
 	border: 1px solid #dddddd;
 	color: #666666;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 14px;
 	line-height: 22px;
 	font-weight: 700;
@@ -12833,7 +12841,7 @@ aside.sidebar .flickr_stream img{
 	background: #f3ae36;
 	border: 1px solid #f3ae36;
 	color: #fff !important;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	padding: 10px 30px 12px 30px;
@@ -12877,7 +12885,7 @@ aside.sidebar .flickr_stream img{
 
 .single_portfolio_pagination a,
 .single_portfolio_pagination.single_portfolio_pagination_bottom a{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	font-size: 15px;
 	color: #9fa4af;
@@ -13006,7 +13014,7 @@ aside.sidebar .flickr_stream img{
 .ABp_latest_portfolio .overlay_title{
 	margin-top: 20px;
 	margin-bottom: 0;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -13016,7 +13024,7 @@ aside.sidebar .flickr_stream img{
 
 .ABp_latest_portfolio .portfolio_item_tags{
 	margin-bottom: 0;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 28px;
@@ -13133,7 +13141,7 @@ aside.sidebar .flickr_stream img{
 }
 
 #portfolio_single_column .portfolio_item_meta h6 a{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
@@ -13199,7 +13207,7 @@ aside.sidebar .flickr_stream img{
 }
 
 .portfolio_2columns_description .portfolio_item_meta_detail_description h6 a{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
@@ -13265,7 +13273,7 @@ aside.sidebar .flickr_stream img{
 }
 
 .portfolio_3columns_description .portfolio_item_meta_detail_description h6 a{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
@@ -13335,7 +13343,7 @@ aside.sidebar .flickr_stream img{
 }
 
 .portfolio_4columns_description .portfolio_item_meta_detail_description h6 a{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 }
 
@@ -13414,14 +13422,14 @@ aside.sidebar .flickr_stream img{
 }
 
 #portfolio_list_fullwidth h2.portfolio_title a{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 18px;
 	line-height: 28px;
 	font-weight: 700;
 }
 
 #portfolio_list_fullwidth .portfolio_item_meta_category{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 14px;
 	line-height: 28px;
 	color: #9fa4af;
@@ -13444,7 +13452,7 @@ aside.sidebar .flickr_stream img{
 	border-radius: 2px;
 	padding: 7px 25px;
 	margin-top: 0;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 11px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -13658,7 +13666,7 @@ aside.sidebar .flickr_stream img{
 .big_404{
 	font-size: 169px;
 	line-height: 169px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	color: #3b4550;
 	text-align: center;
@@ -13667,7 +13675,7 @@ aside.sidebar .flickr_stream img{
 .big_404_text{
 	font-size: 18px;
 	line-height: 18px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	color: #3b4550;
 	text-align: center;
@@ -13681,7 +13689,7 @@ aside.sidebar .flickr_stream img{
 .page-template-404-php .big_404{
 	font-size: 200px;
 	line-height: 200px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	color: #3b4550;
 	text-align: center;
@@ -13691,7 +13699,7 @@ aside.sidebar .flickr_stream img{
 .page-template-404-php .big_404_text{
 	font-size: 28px;
 	line-height: 28px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	color: #3b4550;
 	text-align: center;
@@ -13855,7 +13863,7 @@ aside.sidebar .flickr_stream img{
 	line-height: 20px;
 	margin-top: 21px;
 	text-decoration: none;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	box-shadow: none;
 	padding: 8px 20px;
@@ -13912,7 +13920,7 @@ aside.sidebar .flickr_stream img{
 	white-space: nowrap;
 	line-height: 20px;
 	text-decoration: none;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	box-shadow: none;
 	padding: 8px 20px;
@@ -14211,7 +14219,7 @@ aside.sidebar .flickr_stream img{
 	line-height: 20px;
 	margin-top: 0;
 	text-decoration: none;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	box-shadow: none;
 	padding: 8px 20px;
@@ -14620,7 +14628,7 @@ aside.sidebar .flickr_stream img{
 	line-height: 20px;
 	margin-top: 0;
 	text-decoration: none;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	box-shadow: none;
 	padding: 8px 20px;
@@ -14917,7 +14925,7 @@ aside.sidebar .flickr_stream img{
 	line-height: 20px;
 	margin: 10px auto 15px;
 	text-decoration: none;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	box-shadow: none;
 	padding: 8px 20px;
@@ -14947,7 +14955,7 @@ aside.sidebar .flickr_stream img{
 	line-height: 20px;
 	margin-top: 0;
 	text-decoration: none;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	box-shadow: none;
 	padding: 8px 20px;
@@ -15047,13 +15055,13 @@ aside.sidebar .flickr_stream img{
 	text-shadow: none;
 }
 
-.shop .cart-collaterals .shipping_calculator .shipping-calculator-button:after,
-.shop-page .cart-collaterals .shipping_calculator .shipping-calculator-button:after{
+.shop .cart-collaterals .shipping_calcuGillSansStdr .shipping-calcuGillSansStdr-button:after,
+.shop-page .cart-collaterals .shipping_calcuGillSansStdr .shipping-calcuGillSansStdr-button:after{
 	content: "";
 }
 
-.shop .cart-collaterals .shipping_calculator h2 a,
-.shop-page .cart-collaterals .shipping_calculator h2 a{
+.shop .cart-collaterals .shipping_calcuGillSansStdr h2 a,
+.shop-page .cart-collaterals .shipping_calcuGillSansStdr h2 a{
 	background: #E4664D;
 	border: 1px solid #ddd;
 	display: inline-block;
@@ -15062,7 +15070,7 @@ aside.sidebar .flickr_stream img{
 	color: #fff !important;
 	margin-top: 0;
 	text-decoration: none;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 300;
 	box-shadow: none;
 	padding: 8px 20px;
@@ -15072,8 +15080,8 @@ aside.sidebar .flickr_stream img{
 	transition: all 180ms ease-in;
 }
 
-.shop .cart-collaterals .shipping_calculator h2 a:hover,
-.shop-page .cart-collaterals .shipping_calculator h2 a:hover{
+.shop .cart-collaterals .shipping_calcuGillSansStdr h2 a:hover,
+.shop-page .cart-collaterals .shipping_calcuGillSansStdr h2 a:hover{
 	color: #666 !important;
 	background: #fff;
 	font-weight: 300;
@@ -15124,7 +15132,7 @@ dl.customer_details{
 	margin: 0;
 }
 
-.shop .cart-collaterals .shipping_calculator .button, .shop-page .cart-collaterals .shipping_calculator .button{
+.shop .cart-collaterals .shipping_calcuGillSansStdr .button, .shop-page .cart-collaterals .shipping_calcuGillSansStdr .button{
 	margin: 0;
 	width: auto;
 }
@@ -15137,8 +15145,8 @@ dl.customer_details{
 	margin-bottom: 5px;
 }
 
-.shop .shipping_calculator section.shipping-calculator-form,
-.shop .shipping_calculator section.shipping-calculator-form{
+.shop .shipping_calcuGillSansStdr section.shipping-calcuGillSansStdr-form,
+.shop .shipping_calcuGillSansStdr section.shipping-calcuGillSansStdr-form{
 	padding: 20px 0;
 }
 
@@ -15206,8 +15214,8 @@ input[name="apply_coupon"]{
 	outline: none;
 }
 
-.shop .shipping_calculator section.shipping-calculator-form .form-row.form-row-wide,
-.shop-page .shipping_calculator section.shipping-calculator-form .form-row.form-row-wide{
+.shop .shipping_calcuGillSansStdr section.shipping-calcuGillSansStdr-form .form-row.form-row-wide,
+.shop-page .shipping_calcuGillSansStdr section.shipping-calcuGillSansStdr-form .form-row.form-row-wide{
 	margin-bottom: 20px;
 }
 
@@ -15662,8 +15670,8 @@ ul.products.list li.product .gridlist-buttonwrap {
 	text-align: right;
 }
 
-.shop .cart-collaterals .shipping_calculator,
-.shop-page .cart-collaterals .shipping_calculator {
+.shop .cart-collaterals .shipping_calcuGillSansStdr,
+.shop-page .cart-collaterals .shipping_calcuGillSansStdr {
 	width: 48%;
 	clear: right;
 	float: right;
@@ -16116,7 +16124,7 @@ ul.products.list li.product .gridlist-buttonwrap {
 .ABt_testimonials_wrapper.testimonials_big .ABt_testimonials_slide .testimonials_item .testimonial_big p,
 .ABt_testimonials_wrapper_static.testimonials_big .ABt_testimonials_slide .testimonials_item .testimonial_big p{
 	color: #3b4550;
-	font-family: Lato,sans-serif;
+	font-family: GillSansStd,sans-serif;
 	font-size: 24px;
 	font-style: normal;
 	margin-bottom: 17px;
@@ -16263,13 +16271,13 @@ ul.products.list li.product .gridlist-buttonwrap {
 
 .ab-tweet-text{
 	margin-top: 70px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 20px;
 	color: #fff;
 }
 
 .ab-tweet-text a{
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 20px;
 	color: #e4664d;
 	font-weight: 400;
@@ -16282,7 +16290,7 @@ ul.products.list li.product .gridlist-buttonwrap {
 .ab-tweet-date {
 	color: #e4664d;
 	font-weight: 400;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-size: 14px;
 	position: absolute;
 	bottom: 12px;
@@ -16391,7 +16399,7 @@ a.ab-tweet-next:hover{
 	color: #666;
 	line-height: 22px;
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: GillSansStd, sans-serif;
 	font-weight: 700;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -17300,7 +17308,7 @@ a.ab-tweet-next:hover{
 
 	nav > ul .sf-mega-inner > ul > li > a{
 		color: #666;
-		font-family: Lato, sans-serif;
+		font-family: GillSansStd, sans-serif;
 		font-weight: 400;
 		font-size: 12px;
 		line-height: 14px;
@@ -17309,7 +17317,7 @@ a.ab-tweet-next:hover{
 
 	.megamenu_header a span {
 		color: #666;
-		font-family: Lato, sans-serif;
+		font-family: GillSansStd, sans-serif;
 		font-weight: 400;
 		font-size: 12px;
 		line-height: 14px;
@@ -18338,7 +18346,7 @@ a.ab-tweet-next:hover{
 
 	nav > ul .sf-mega-inner > ul > li > a{
 		color: #666;
-		font-family: Lato, sans-serif;
+		font-family: GillSansStd, sans-serif;
 		font-weight: 400;
 		font-size: 12px;
 		line-height: 14px;
@@ -18347,7 +18355,7 @@ a.ab-tweet-next:hover{
 
 	.megamenu_header a span {
 		color: #666;
-		font-family: Lato, sans-serif;
+		font-family: GillSansStd, sans-serif;
 		font-weight: 400;
 		font-size: 12px;
 		line-height: 14px;

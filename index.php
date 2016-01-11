@@ -60,25 +60,67 @@ Nossa marca tem como ícone o símbolo da perseverança, força e bravura: a car
 			<div class="vozx_container">
 				<div class="vozx_column_dd_span4 vozx-animo animation_completed" data-animation="fadeInLeft" data-duration="1000" data-delay="200" style="">
 					<div class="vozx_service_box vozx_service_box_round_text_aside">
+						<div class="vozx_service_box_header">
+							<a href="#" target="_self" class="vozx_icon_boxed">
+								<i class="icon-arrow-circle-o-down"></i>
+							</a>
+						</div>
 						<p>Redução do custo de implementação das estruturas financeiras e patrimoniais;</p>
 					</div>
+				</div>
+				
+				<div class="vozx_column_dd_span4 vozx-animo animation_completed" data-animation="fadeInLeft" data-duration="1000" data-delay="200" style="">
 					<div class="vozx_service_box vozx_service_box_round_text_aside">
+						<div class="vozx_service_box_header">
+							<a href="#" target="_self" class="vozx_icon_boxed">
+								<i class="icon-glass"></i>
+							</a>
+						</div>
 						<p>Permitir que você desfrute do seu patrimônio sem se envolver na rotina burocrática da gestão;</p>
 					</div>
 				</div>
-				<div class="vozx_column_dd_span4 vozx-animo animation_completed" data-animation="fadeInDown" data-duration="1000" data-delay="200" style="">
+				
+				<div class="vozx_column_dd_span4 vozx-animo animation_completed" data-animation="fadeInLeft" data-duration="1000" data-delay="200" style="">
 					<div class="vozx_service_box vozx_service_box_round_text_aside">
+						<div class="vozx_service_box_header">
+							<a href="#" target="_self" class="vozx_icon_boxed">
+								<i class="icon-legal	"></i>
+							</a>
+						</div>
 						<p>Parcerias eficientes com renomados escritórios de advocacia, consultorias imobiliárias e seguradoras, dentre outros parceiros estratégicos;</p>
 					</div>
+				</div>
+			</div>
+			<div class="vozx_container">
+				<div class="vozx_column_dd_span4 vozx-animo animation_completed" data-animation="fadeInLeft" data-duration="1000" data-delay="200" style="">
 					<div class="vozx_service_box vozx_service_box_round_text_aside">
+						<div class="vozx_service_box_header">
+							<a href="#" target="_self" class="vozx_icon_boxed">
+								<i class="icon-group"></i>
+							</a>
+						</div>
 						<p>Segregação dos negócios da família das atividades empresariais;</p>
 					</div>
 				</div>
-				<div class="vozx_column_dd_span4 vozx-animo animation_completed" data-animation="fadeInRight" data-duration="1000" data-delay="200" style="">
+				
+				<div class="vozx_column_dd_span4 vozx-animo animation_completed" data-animation="fadeInLeft" data-duration="1000" data-delay="200" style="">
 					<div class="vozx_service_box vozx_service_box_round_text_aside">
+						<div class="vozx_service_box_header">
+							<a href="#" target="_self" class="vozx_icon_boxed">
+								<i class="icon-compass"></i>
+							</a>
+						</div>
 						<p>Orientação ativa de profissionais especializados;</p>
 					</div>
+				</div>
+				
+				<div class="vozx_column_dd_span4 vozx-animo animation_completed" data-animation="fadeInLeft" data-duration="1000" data-delay="200" style="">
 					<div class="vozx_service_box vozx_service_box_round_text_aside">
+						<div class="vozx_service_box_header">
+							<a href="#" target="_self" class="vozx_icon_boxed">
+								<i class="icon-star-o"></i>
+							</a>
+						</div>
 						<p>Confidencialidade</p>
 					</div>
 				</div>
